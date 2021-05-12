@@ -106,6 +106,11 @@ header nav span {
     justify-content: left;
     align-items: center;
 }
+
+.section-content a {
+    text-decoration: none;
+    color: rgb(218, 151, 26);
+}
 /* work project styling begins */
 .work-project {
     justify-content: space-between;
@@ -114,9 +119,10 @@ header nav span {
 }
 
 .work-project img {
-    opacity: .7;
+    opacity: .5;
     max-width: 100%;
     height: auto;
+    border: 3px solid black;
 }
 
 .work-project img:hover {
@@ -144,7 +150,7 @@ header nav span {
     font-size: 24px;
     position: absolute;
     bottom: 10px;
-    left: 0;
+    left: 3px;
 }
 
 /* change work projects to single column for smaller screens */
